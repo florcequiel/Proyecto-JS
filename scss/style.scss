@@ -1,0 +1,34 @@
+//Variables--
+$color1: black;
+$color2: #38b6ff;
+$color3: white;
+
+$fuente:'Otomanopee One', sans-serif;
+
+$ancho: 300px;
+
+//Imports--
+@import "menu";
+@import "logo";
+@import "carousel";
+@import "servicios";
+@import "contacto";
+@import "footer";
+@import "equipo";
+
+body{
+    background-color: $color1;
+}
+
+.btn{
+    background-color: $color1;
+    color: $color3;
+    font-family: $fuente;
+    transition: 2s;
+
+}
+
+.btn:hover {
+    background-color: $color3;
+    color: $color1;
+}

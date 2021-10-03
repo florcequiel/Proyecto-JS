@@ -1,0 +1,28 @@
+.row{
+    justify-items:stretch;
+}
+
+
+.card-body {
+    font-family: $fuente;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: $color2;
+    color: $color1;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 2s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}

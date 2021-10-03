@@ -1,0 +1,36 @@
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+
+.negro{
+    font-family: $fuente;
+    text-align: center;
+    background-color: $color1;
+    margin: 20px auto;
+    padding: 15px;
+    color: $color3;
+}
+.celeste{
+    font-family: $fuente;
+    text-align: center;
+    background-color: $color2;
+    margin: 20px auto;
+    padding: 15px;
+    color: $color1;
+    border-radius: 20px;
+}
+
+.imagenExpertos{
+    border-radius: $ancho/2 ;
+    border:10px solid $color3;
+    margin-bottom: 10px;
+    transition: 2s;
+}
+
+.imagenExpertos:hover {
+    transform: rotate(360deg);
+}
+

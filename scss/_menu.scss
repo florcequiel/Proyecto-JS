@@ -1,0 +1,21 @@
+.menu {
+    font-family: $fuente;
+    color: $color3;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 2s;
+    padding: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $color3;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.nav-item a:hover {
+    background-color: $color2;
+    color: $color1;
+}

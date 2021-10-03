@@ -1,0 +1,17 @@
+.carousel-item{
+    @media all and (max-width: 500px){
+        img{
+            width: 250px;
+            height: 150px;
+        }
+    }
+}
+
+
+.carousel-item{
+    font-family: $fuente;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
